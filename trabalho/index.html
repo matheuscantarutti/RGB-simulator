@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./estilo.css" />
+        <title>trabalho módulo 1</title>
+    </head>
+    <body>
+        <div class="caixaInput">
+            <label for="red">(R) <span id="valorRed">0</span></label>
+            <input
+                type="range"
+                name="red"
+                id="red"
+                min="0"
+                max="255"
+                value="0"
+            />
+
+            <label for="green">(G) <span id="valorGreen">0</span></label>
+            <input
+                type="range"
+                name="green"
+                id="green"
+                min="0"
+                max="255"
+                value="0"
+            />
+
+            <label for="blue">(B) <span id="valorBlue">0</span></label>
+            <input
+                type="range"
+                name="blue"
+                id="blue"
+                min="0"
+                max="255"
+                value="0"
+            />
+        </div>
+
+        <div class="caixaRgb"></div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

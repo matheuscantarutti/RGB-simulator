@@ -1,0 +1,18 @@
+.caixaInput {
+    display: flex;
+    flex-direction: column;
+
+    width: 25%;
+    height: 25%;
+    margin: 0 auto;
+}
+
+.caixaRgb {
+    width: 10rem;
+    height: 10rem;
+
+    box-sizing: border-box;
+
+    margin: 50px auto;
+    background-color: rgb(0, 0, 0);
+}
